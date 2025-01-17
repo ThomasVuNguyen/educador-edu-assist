@@ -1,0 +1,34 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "basic-gemini-chatbot-67n8js",
+          "appId": "1:826364208811:android:81cfe77418e515713bf9ee",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "basic-gemini-chatbot-67n8js",
+          "configurations": {
+            "android": "1:826364208811:android:81cfe77418e515713bf9ee",
+            "ios": "1:826364208811:ios:ed4d68876cf848fb3bf9ee",
+            "macos": "1:826364208811:ios:ed4d68876cf848fb3bf9ee",
+            "web": "1:826364208811:web:1a15a26017e917ef3bf9ee",
+            "windows": "1:826364208811:web:de98d88759a9e79b3bf9ee"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "site": "educador",
+    "public": "/build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "project_info": {
+    "project_number": "826364208811",
+    "project_id": "basic-gemini-chatbot-67n8js",
+    "storage_bucket": "basic-gemini-chatbot-67n8js.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826364208811:android:5ab09ff616cdf78c3bf9ee",
+        "android_client_info": {
+          "package_name": "com.Billullonex.chatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826364208811-9mvsdpuq5342e2l1vvm5866rkad0bpu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO0TFrX_jb9U0yZiGdlocUeYYQmxFshNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826364208811-9mvsdpuq5342e2l1vvm5866rkad0bpu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826364208811:android:91d2b8da0a2db2b73bf9ee",
+        "android_client_info": {
+          "package_name": "com.billullonex.bnexchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826364208811-9mvsdpuq5342e2l1vvm5866rkad0bpu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO0TFrX_jb9U0yZiGdlocUeYYQmxFshNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826364208811-9mvsdpuq5342e2l1vvm5866rkad0bpu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826364208811:android:81cfe77418e515713bf9ee",
+        "android_client_info": {
+          "package_name": "com.billullonex.educador_edu_assist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826364208811-9mvsdpuq5342e2l1vvm5866rkad0bpu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO0TFrX_jb9U0yZiGdlocUeYYQmxFshNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826364208811-9mvsdpuq5342e2l1vvm5866rkad0bpu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826364208811:android:03304f43b4145ee03bf9ee",
+        "android_client_info": {
+          "package_name": "com.billullonex.otter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826364208811-9mvsdpuq5342e2l1vvm5866rkad0bpu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO0TFrX_jb9U0yZiGdlocUeYYQmxFshNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826364208811-9mvsdpuq5342e2l1vvm5866rkad0bpu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
