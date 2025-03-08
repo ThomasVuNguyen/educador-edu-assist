@@ -246,7 +246,7 @@ class _LessonSummaryState extends State<LessonSummary> {
                         style: GoogleFonts.geologica(
                           fontSize: 16,
                           color: Colors.white,
-                      ),),
+                        ),),
                       style: TextButton.styleFrom(
                         padding: const EdgeInsets.symmetric(
                           horizontal: 24,
