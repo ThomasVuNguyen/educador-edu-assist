@@ -22,16 +22,13 @@ Future<List<Map<String, String>>> generate_multiple_choice_question(String lesso
       apiKey: GeminiAPI,
       generationConfig: GenerationConfig(responseMimeType: 'application/json'));
 
-  final prompt = 'Given this lesson: $lesson. From the given lesson, create 5 multiple-choice questions to test students knowledge on the topic. Question should be generated using this format: \n\n'
+  final prompt = 'Given this lesson: $lesson. From the given lesson, create 5 multiple-choice questions (in Spanish) to test students knowledge on the topic. Question should be generated using this format: \n\n'
   'Format = {"Question": string, "A": string, "B": string, "C": string, "Answer": string}\n'
   'Return: Array<Recipe>';
   final response = await model.generateContent([Content.text(prompt)]);
   return convertStringToListOfMaps(response.text!);
 
 }
-
-
-
 
 List<Map<String, String>> convertStringToListOfMaps(String jsonString) {
   try {
@@ -47,4 +44,10 @@ List<Map<String, String>> convertStringToListOfMaps(String jsonString) {
   } catch (e) {
     throw FormatException('Invalid JSON format: $e');
   }
+}
+
+Future<String> evaluateTestResult(List<Map<String, String>> questions, String content) async{
+  String? evaluation = await prompt_gemini('You are reading test results from a student on a given content. Please give a summary of the result and feedback on what the students should focus on. Write in Spanish. Here is the content $content. Here is the test result ${questions.toString()}');
+  print(evaluation);
+  return evaluation!;
 }

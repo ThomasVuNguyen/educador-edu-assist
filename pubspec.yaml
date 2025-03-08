@@ -42,6 +42,10 @@ dependencies:
   flutter_markdown: ^0.7.5
   easy_quiz_game: ^1.0.1
   firebase_core: ^3.10.0
+  flutter_dropzone: ^4.2.1
+  desktop_drop: ^0.5.0
+  google_fonts: ^6.2.1
+  gap: ^3.0.1
 
 dev_dependencies:
   flutter_test:
@@ -68,6 +72,11 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/
+    - assets/sinlapiz.png
+    - assets/message.png
+    - assets/thomas.png
+    - assets/background.png
+    - assets/generate_icon.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
